@@ -1,0 +1,133 @@
+* {
+    width: auto;
+    max-width: auto;
+    
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url(background.jpg);
+    background-image: linear-gradient(0, 0, 0, 0.90);
+    background-size: 100%, 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body::before {
+    content: '';
+    background-color: rgb(0, 0, 0, 0.70);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.header {
+   padding-top: 1.34em;
+   padding-left: 3em;
+   padding-right: 4.6em;
+}
+
+.logo img { 
+    position: absolute;
+    width: 181px;
+    height: 60.8px;
+    
+}
+
+.menu {
+    padding-right: 3em;
+    text-align: right;
+    top: 7px;
+
+}
+.lang {
+    position: relative;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.40);
+    width: 110.5px;
+    height: 35px;
+    border-radius: 2px;
+    border-color: white;
+    right: 28px;
+    text-align: center;
+}
+    
+.login {
+    position: relative;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    background-color:#e50914;
+    border-color: #e50914;
+    color: white;
+    border-radius: 3px; 
+    border: none;
+}
+
+.textbody {
+    color: white;
+    position: relative; 
+    text-align: center;
+    padding-top: 125px;
+    margin: 0;
+}
+
+.body h1 { 
+    font-size: 3.9em;
+    font-weight: bolder;
+}
+
+.body h2 {
+    font-size: 25px;
+    
+}
+
+.body p{
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+
+.menu {
+    color: white;
+    position: relative;
+    left: 50px;
+}
+
+.inputbox {
+    text-align: center;
+ }
+
+.email {
+    padding-left: 10px;
+    position: relative;
+    width: 30.8em;
+    height: 3.95em;
+    font-size: 17px;
+    border: none;
+    top: -2px;
+}
+
+.submit {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-left: -20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color:#e50914;
+    width: 10.5em;
+    height: 3.48em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
